@@ -1,0 +1,26 @@
+# Ignore virtual environment directories
+venv/
+.env/
+
+ Ignore Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore IDE-related files
+.idea/
+
+# Ignore logs
+*.log
+
+# Explicitly include conftest.py
+!conftest.py
+
+
+# Ignore test folders (if required)
+test/
+
+# Do not ignore test files
+!*test.py
+!test_*.py
+!*_test.py
