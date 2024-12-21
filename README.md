@@ -16,3 +16,16 @@ Custom hooks for embedding screenshots in HTML reports.
 4. Detailed HTML Reporting
 Generate detailed HTML reports for test runs.
 Embed screenshots for failed test cases, making debugging easier.
+
+Usage:---
+Run Tests on Default Browser (Chrome):
+pytest
+
+Run Tests on a Specific Browser: Use the --browser_name option to specify the browser:
+pytest --browser_name=firefox
+Generate HTML Reports: Use the --html option to generate a test report:
+pytest --html=report.html
+Run Specific Tests: Execute only a specific test file or function:
+pytest tests/test_e2e.py
+or
+pytest tests/test_HomePage.py
